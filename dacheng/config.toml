@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "http://examplesite.com/"
+baseurl = "https://dacheng-win.github.io/"
 title = "大成鋁門窗 | 鋁門窗,氣密窗,隔音窗,H型鋁鋼構採光罩,遮雨棚,藝術玄關門,氣密加壓門,硫化銅門,浴廁門,不銹鋼門,不銹鋼防盜門窗,鋁格柵"
 theme = "../.."
 # post excert
