@@ -1,0 +1,37 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.banner.enable }}
+{{- with $data.homepage.banner }}
+<!-- hero area -->
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-center mb-5 mb-md-0">
+				<img class="img-fluid" src="{{ .image | absURL }}" alt="">
+			</div>
+			<div class="col-md-6 align-self-center text-center text-md-left">
+				<div class="block">
+					<h1 class="font-weight-bold mb-4 font-size-60">{{ .title | markdownify }}</h1>
+					
+					<h2 class="mb-6 font-size-30">{{ .content | markdownify }}</h2>
+					{{ if .button.enable }}
+					{{ with .button }}
+					<a href="{{.link|absLangURL}}" class="btn btn-main">{{.label}}</a>
+					{{ end }}
+					{{ end }}
+					<br><br>
+					{{with .phone}} <a href="tel:{{ . }}"><i class="tf-ion-ios-telephone mr-2"></i>
+						{{ . }}</a>{{ end }}
+					{{with .mobile}} <a href="tel:{{ . }}"><i class="tf-ion-android-phone-portrait mr-2"></i>
+						{{ . }}</a>{{ end }}<br>
+						<div class="line-it-button" data-lang="zh_Hant" data-type="friend" data-lineid="@alwaysbegod" style="display: none;"></div>
+					<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+					
+					
+				</div>
+			</div>
+		</div><!-- .row close -->
+	</div><!-- .container close -->
+</section><!-- header close -->
+{{- end }}
+{{- end }}

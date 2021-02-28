@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      {{ with .Params.office }}
+      <div class="col-lg-5 col-sm-6 mb-5">
+        <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        <ul class="list-unstyled contact-list">
+          {{with .phone}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-ios-telephone mr-2"></i>
+              {{ . }}</a></li>{{ end }}
+          {{with .mobile}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-android-phone-portrait mr-2"></i>
+              {{ . }}</a></li>{{ end }}
+          <div class="line-it-button" data-lang="zh_Hant" data-type="friend" data-lineid="@alwaysbegod" style="display: none;"></div>
+              <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+          {{with .location }} <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>{{ . }}
+          </li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      <div class="col-lg-3 col-sm-6 mb-5">
+        {{ with .Params.service_area }}
+        <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
+        <ul class="list-unstyled">
+          {{ range .area }}
+          <li class="mb-2">{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+    
+</section>
+
+{{ end }}

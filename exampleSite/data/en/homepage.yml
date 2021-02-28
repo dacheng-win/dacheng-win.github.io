@@ -1,0 +1,59 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "給您寧靜, 溫暖, 遮風避雨的家"
+  content : ""
+  image : "images/window.png"
+  button:
+   enable : true
+   label : "免費諮詢"
+   link : "contact"
+  phone : "037-865405"
+  mobile : "0910-851002"
+  line : "dddd"
+  line_logo : "images/line.png"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "專營項目"
+  image : "images/door.jpg"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "隔音氣密窗"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "氣密窗, 隔音窗, 隔音氣密窗, 複層玻璃隔音橫拉窗, 複層玻璃隔音推射窗, 複層玻璃氣密橫拉窗, 複層玻璃氣密推射窗, 防盜氣密窗"
+    
+    # feature item loop
+  - title : "功能品味窗"
+    icon : "tf-ion-ios-bell-outline"
+    content : "排煙窗, 自動排煙窗, 防盜窗,防盜鐵窗, 鋁穿梭防盜窗, 落地窗, 推拉窗, 推射窗, 格子窗, 百葉窗, 景觀窗, 火車窗, 無障礙落地窗, 冷氣窗, 固定窗, 塑鋼窗, 不鏽鋼防盜窗, 防火窗"
+    
+    # feature item loop
+  - title : "專業紗網"
+    icon : "tf-ion-ios-bell-outline"
+    content : "經典紗門, 橫拉紗窗, 折疊紗窗, 通風折紗門, 捲紗門, 多色紗窗門"
+    
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "經典鋁門"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "店面自動門, 落地門, 玄關門, 雙玄關門, 浴室門, 浴廁門, 百葉門, 房間門, 塑鋼門, 推拉門, 通風門, 紗門, 半自動門， 不鏽鋼門，三合一門, 南亞塑鋼門, 防水門, 平開門"
+
+    # feature item loop
+  - title : "功能藝術門"
+    icon : "tf-ion-ios-bell-outline"
+    content : "藝術玄關門, 格子門, 陽台門,白色塑鋼門片,硫化銅門,木紋塑膠門, 折疊門, 隔間門, 室內細框隔間, 防火門, 藝術鍛造玄關門, 遮煙防火門, 檢修防火門, 隔音防火門, 庭院車庫門, 鋼板壓花門, 陶瓷玻纖門, 銅雕門, 鋁雕門, 鋼木門"
+
+    # feature item loop
+  - title : "戶外其他"
+    icon : "tf-ion-ios-bell-outline"
+    content : "車庫採光罩, 鋁格柵, 陽台鋁, 鍛造欄杆, 兒童安全門欄"
+
+
+
+
