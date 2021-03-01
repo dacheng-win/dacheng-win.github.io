@@ -47,11 +47,20 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "產品介紹"
+url = "/products"
+weight = 2
+
+[[menu.main]]
 name = "聯絡我們"
 url = "contact"
 weight = 5
 
 
+[[menu.footer]]
+name = "產品介紹"
+url = "products"
+weight = 2
 
 [[menu.footer]]
 name = "聯絡我們"

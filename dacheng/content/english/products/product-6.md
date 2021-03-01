@@ -1,24 +1,19 @@
 ---
-title: "Realme Watch"
+title: "VI. 戶外其他"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/showcase/showcase-6.png"
-  - "images/showcase/showcase-2.png"
-  - "images/showcase/showcase-3.png"
-  - "images/showcase/showcase-4.png"
+  - "images/showcase/6-1.jpg"
+  - "images/showcase/6-2.jpg"
+  - "images/showcase/6-3.jpg"
+  - "images/showcase/6-4.jpg"
+  - "images/showcase/6-5.jpg"
+
 
 # meta description
 description : "this is meta description"
 
-# product Price
-price: "30.00"
-discount_price: "25.00"
-
-# product variation
-colors : ["black","white","gray"]
-sizes : ["small","medium","large"]
 
 draft: false
 ---
 
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+車庫採光罩<br>鋁格柵<br>陽台鋁<br>鍛造欄杆<br>兒童安全門欄
